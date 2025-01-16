@@ -1,0 +1,31 @@
+/* * {}seleciona tudo */
+/* <h1class="titulo">/.titulo{} - classes são igual ao CEP - muitas casas podem usar o mesmo. */
+/* <p id="paragrafo">/#paragrafo{} - id é como rg ou CPF cada um tem o seu individual. */
+
+* { background: blanchedalmond;}
+
+#titulo { 
+    color:red;
+    font-size: 55px;
+}
+#paragrafo {
+    color:blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+#botão {
+    background: green;
+}
+#outro-botão {
+    background: chocolate;
+}
+/*  */
+.texto{
+    color:red;
+    font-weight: bold;
+}
+/*  */
+.texto, p, .botão, #ultimo-botão{
+    color: red;
+
+}

@@ -1,0 +1,22 @@
+/* Base RGB
+REDE,GREEN,BLUE
+
+*/
+h1 { 
+    background: rgb(255,255,255);
+}
+
+/* HEXADECIMAL
+DECIMAL(BASE10)1,2,3,4,5,6,7,8,9...
+HEXADECIMAL(16)1,2,3,4,5,6,7,8,9,A,B,C,D,E,F.
+ 
+sites para cores=w3dchool-RGB
+Adobecolor
+cooloes
+extensão colorzila para identificar as principais cores de um site
+
+*/
+p {
+    background: #0000ff;
+}
+

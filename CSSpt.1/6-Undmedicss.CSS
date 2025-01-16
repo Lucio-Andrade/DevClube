@@ -1,0 +1,98 @@
+/* UNIDADE DE MEIDA
+-->ABSOLUTAS=
+px(pixels)1/100 polegada=0,254mm
+in(inches/polegada)
+CM/mm(centimetros/milimetros)
+
+-->RELATIVAS
+% Cacula tamanho relativo ao elemento pai
+vw (view width) 1vw é 1% da largura em relação a tela do navegador
+vh (view height) 1vg é 1% da altura em relação a janela do nav.
+em->(UND.transitoria)é uma unidade relativa ao elemento pai
+rem->(U.t.raiz)unidade relativa ao elemento raiz
+*/
+
+.pai {
+    font-size: 64px;  
+}
+
+.filho {
+    font: size 50%;
+}
+
+/*  */
+.pai1 { 
+    width: 500px;
+    height: 500px;
+    background: blue;
+    color:#ffff;
+}
+.filho1 {
+    width: 50%;
+    height: 50%;
+    background: red;
+    color:#ffff;
+}
+/*  */
+.pai2 {
+    width: 50vw;
+    height:50vh;
+    background:blue;
+    color:#ffff;
+}
+.filho2 {
+    width:50%;
+    height: 50%;
+    background:red;
+    color:#ffff;
+}
+/*  */
+.vô3 { 
+    width:50vw;
+    height:50vh;
+    background:#000;
+    color:#ffff;
+    font-size:  64px;
+}
+
+.pai3 {
+    width: 50%;
+    height:50%;
+    background:blue;
+    color:#ffff;
+    font-size:0.5em ;
+}
+.filho3 {
+    width:50%;
+    height: 50%;
+    background:red;
+    color:#ffff;
+    font-size: 0.5em;
+
+}
+/*  */
+.vô4 { 
+    width:50vw;
+    height:50vh;
+    background:#000;
+    color:#ffff;
+    font-size:32px;
+}
+
+.pai4 {
+    width: 50%;
+    height:50%;
+    background:blue;
+    color:#ffff;
+    font-size:0.5em ;
+}
+.filho4 {
+    width:50%;
+    height: 50%;
+    background:red;
+    color:#ffff;
+    font-size: 2rem;
+}
+
+
+

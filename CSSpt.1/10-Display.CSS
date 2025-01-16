@@ -1,0 +1,56 @@
+.box{
+    background: #ff1395;
+    height: 50px; 
+    width: 50px;
+    margin: 10px;
+    display: inline-block;
+}
+
+.box-2 {
+    background: #FFFF00;
+}
+
+.box-3 {
+    background: #0003FF;
+}
+
+/*  
+DISPLAY 
+
+-BLOCK
+-INLINE
+-INLIE-BLOCK
+
+-GRID
+-FLEX
+
+-BLOCK=> 
+        é a maneira de organizar as Div uma em cima da outra;
+    Vem como padrão: div, section, p, h1, h2, ul, li, article...
+
+    - Ocupa 100% da largura do elemento pai;
+    - Sempre ocupa toda a sua linha 
+    - Altura definifa de acordo com o conteudo caso não defina o width;
+    - Podemos definir height e width;
+    - Podemos definir os valores de margin;
+    
+    -INLINE=> 
+            é a maneira de organizar as informações em uma linha;
+        Vem como padrão a, span, b, i ...
+
+        -Elementos em linha
+        -Não permite alterar heigth nem width;
+        -Não podemos definir valores de margin;
+        -Ganha o comportamento de uma palavra;
+
+    -INLINE-BLOCK=>
+                    é a junção de Line com Block;
+        -Elementos em linha, porem com caracteristicas do display-Block
+        -Altura e largura podem ser alteradas;
+
+
+
+
+
+
+*/

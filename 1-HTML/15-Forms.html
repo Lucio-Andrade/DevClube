@@ -1,0 +1,39 @@
+<!--FORMS
+-Caotura dados de entrada
+-Input->Entrada
+
+Action-> detalhe para qual Url Será eviado os dados, vazio enviar  para mesma URL
+Method
+-GET
+-POST
+-->
+
+
+<form action="" method="get" enctype="multipart/form-data">
+    <h1>Digite aqui seu endereço</h1>
+    <label>
+        Rua
+        <input type="text" name="rua" autocomplete="street-address" />
+
+    </label>
+
+    <label>
+        Número:
+        <input type="number" name="numero" autocomplete="cc-number" />
+    </label>
+
+    <label>
+        Email:
+        <input type="email" name="email" />
+    </label>
+
+    <label>
+        Foto:
+        <input type="file" name="arquivo" />
+    </label>
+
+    <button type="reset">reset</button>
+    <button type="submit">Enviar dados</button>
+
+
+</form>

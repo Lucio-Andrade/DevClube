@@ -1,0 +1,51 @@
+/* usando o padding para crescer nas 4 direções */
+.box {
+    width: 50px;
+    height: 50px;   
+    background: #FF1493; 
+    padding: 50px;
+
+}
+/* usando o margin para da margin nas 4 direções */
+.box-2-1 {
+    width: 50px;
+    height: 50px;
+    background: #FF1493;
+    margin: 20px
+}
+
+.box-2-2 {
+    width: 50px;
+    height: 50px;
+    background:#9370DB;
+}
+/* 1-tec.de colocar margens diferentes:top,bottom,right,left, */
+/* OBS: pode-se usar no padding da mesma forma */
+.box-3 {
+    width: 50px;
+    height: 50px;
+    background: #FF1493;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+ /* Atalho do relogio */
+/* margin/padding-valor 1=top, 2=rigth, 3=baixo, 4=left*/
+.box-4 {
+    width: 50px;
+    height: 50px;
+    background:#9370DB;
+/* atalho do relogio */
+margin:10px 50px 30px 5px;
+/* valor 1=top, 2=ambos-lados 3=bottom */
+padding: 10px 50px 30px;
+/* valor 1=top,bottom, 2=rigth,left*/
+padding: 10px 50px ;
+
+}
+
+
+
+
+
